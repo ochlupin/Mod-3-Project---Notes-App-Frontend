@@ -1,3 +1,4 @@
+// @ts-check
 //  !!App Class!! - Responsible for high level logic of the application (event listeners, )
 
 class App {

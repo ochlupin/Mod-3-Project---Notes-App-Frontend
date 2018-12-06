@@ -1,9 +1,10 @@
-// *****************NOTES APP *********************
+// @ts-check
+// *****************NOTES APP *********************//
 
 document.addEventListener("DOMContentLoaded", () => {
   alert("LOADED");
 
-  allNotesContainer = document.querySelector("#notes-list");
+  const allNotesContainer = document.querySelector("#notes-list");
 
   //**Create new App object and call the .attachEventListeners method on it**/
   const app = new App();

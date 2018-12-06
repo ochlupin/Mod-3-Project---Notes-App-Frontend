@@ -1,7 +1,9 @@
-// !!Adapter Class is responsible for handling communication with the API/Backend!! (fetching and updating our objects from the dabatabase)!!
+// @ts-check 
+// !!Adapter Class is responsible for handling communication with the API/Backend!! (fetching and updating our objects from the abatabase)!!
 
 class Adapter {
   constructor() {
+
     //root url for our API, resources agnostic
     this.baseUrl = "http://localhost:3000/api/v1";
     this.headers = {
@@ -30,7 +32,7 @@ class Adapter {
 
   // Extracting the fetch get request functionality into the get class method
   get(url) {
-    return fetch(url).then(r => r.json())
+    return fetch(url).then(r => r.json());
   }
 
   // Extracting the patch request functionality into the patch class method

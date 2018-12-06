@@ -1,3 +1,4 @@
+// @ts-check
 // !!Note Class!! - Responsible for handling related to the Note objects
 // !!rendering items and forms for editing, keeping track of Note objects (findById)
 
